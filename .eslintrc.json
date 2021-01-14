@@ -3,11 +3,13 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["airbnb-typescript/base"],
+  "extends": ["airbnb-typescript/base", "plugin:prettier/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/quotes": ["error", "double"]
+  }
 }
