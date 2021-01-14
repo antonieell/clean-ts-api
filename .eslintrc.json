@@ -1,19 +1,16 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "airbnb/base",
-    "airbnb-typescript/base",
-    "plugin:prettier/recommended"
-  ],
-  "parser": "@typescript-eslint/parser",
+  "extends": "standard-with-typescript",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "prettier/prettier": ["error"],
-    "@typescript-eslint/quotes": ["error", "double"]
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/comma-spacing": "off",
+    "@typescript-eslint/return-await": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "import/export": "off"
   }
 }
