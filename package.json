@@ -1,0 +1,8 @@
+{
+  "name": "clean-ts-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/antonieell/clean-ts-api.git",
+  "author": "Antoniel Magalhães <antoniel2210@gmail.com>",
+  "license": "MIT"
+}
